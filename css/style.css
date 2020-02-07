@@ -45,7 +45,8 @@ nav a:hover{
   transition: top 1s ease-out;
   z-index: 1;
   position:absolute;
-  margin-top:-40px;
+  left:-100px;
+  top:-100px;
 
   /*Your code here - position relative to the parent */
   /*Your code here - place 40px higher */;
@@ -58,7 +59,8 @@ nav a:hover{
   transition: top 1s ease-out;
   z-index: 1;
   position:absolute;
-  margin-top:2px;
+  left:5px;
+  top:5px;
 }
 
 /*Your code here*/
@@ -70,11 +72,11 @@ link to the exact top of the page.*/
 /*Add the selector and code to put a 2px black
 border around all elements in focus.*/
 :focus{
-  outline: 2px solid black;
+  outline: 2px solid #000000;
 }
 
 footer{
-  background-color: black;
+  background-color: #000000;
   color: white;
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 7 / auto;   /*Can you rewrite it?*/
@@ -103,6 +105,7 @@ header{
   grid-column: 1 / -1;
   grid-row: 2 / 3;
   background-image: url("../images/header.jpg");
+  background-color:#575757
 
   /* Your code here */
   /* Set background-image to header.jpg in the images folder */
